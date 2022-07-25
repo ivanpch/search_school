@@ -3,12 +3,14 @@ from datetime import datetime
 import uuid
 
 import elasticsearch
+from elasticsearch import helpers
 import pandas as pd
 
 
 def read_csv(csv_delimiter: str, csv_path: str) -> 'pd.DataFrame':
     """
     Reads CSV file in `csv_path` with specified `csv_delimiter`.
+    Rename columns: lowercase, replace spaces with underscores.
 
     Args:
         csv_delimiter: CSV delimiter.
@@ -19,7 +21,38 @@ def read_csv(csv_delimiter: str, csv_path: str) -> 'pd.DataFrame':
     """
 
     csv_df = pd.read_csv(csv_path, delimiter=csv_delimiter)
+    csv_df.rename(
+        columns={
+            column: column.strip().replace(' ', '_').lower()
+            for column in csv_df.columns
+        },
+        inplace=True
+    )
     return csv_df
+
+
+def generate_docs(csv_df: 'pd.DataFrame', es_index: str) -> dict:
+    """
+    Docs generator for ES bulk helper.
+
+    Args:
+        csv_df: CSV dataframe.
+        es_index: name of Elasticsearch index.
+
+    Returns:
+        single ES document at a time.
+    """
+
+    for _, row in csv_df.iterrows():
+        doc = {
+            '_id': uuid.uuid4().hex,
+            '_index': es_index,
+            '_source': {
+                'timestamp': datetime.now(),
+                **row.to_dict(),
+            },
+        }
+        yield doc
 
 
 def create_index(csv_df: 'pd.DataFrame', es_host: str, es_index: str) -> None:
@@ -33,18 +66,8 @@ def create_index(csv_df: 'pd.DataFrame', es_host: str, es_index: str) -> None:
     """
 
     es = elasticsearch.Elasticsearch(es_host)
-    for idx in range(csv_df.shape[0]):
-        es_doc = {
-            'timestamp': datetime.now(),
-        }
-        row = csv_df.iloc[idx]
-        es_doc.update(**{
-            column_name.strip().lower(): row[column_name]
-            for column_name in csv_df.columns
-        })
-        doc_id = uuid.uuid4().hex
-        res = es.index(index=es_index, id=doc_id, document=es_doc)
-        print(f'Indexing doc with id {doc_id}: {res["result"]}')
+    res = helpers.bulk(es, generate_docs(csv_df, es_index))
+    print(f'Documents ingested: {res[0]}')
 
 
 def main():
