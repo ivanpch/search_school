@@ -1,0 +1,648 @@
+{
+  "tokens": [
+    {
+      "token": "Sample",
+      "start_offset": 77,
+      "end_offset": 83,
+      "type": "<ALPHANUM>",
+      "position": 0
+    },
+    {
+      "token": "for",
+      "start_offset": 84,
+      "end_offset": 87,
+      "type": "<ALPHANUM>",
+      "position": 1
+    },
+    {
+      "token": "checking",
+      "start_offset": 88,
+      "end_offset": 96,
+      "type": "<ALPHANUM>",
+      "position": 2
+    },
+    {
+      "token": "ES",
+      "start_offset": 97,
+      "end_offset": 99,
+      "type": "<ALPHANUM>",
+      "position": 3
+    },
+    {
+      "token": "analyzer",
+      "start_offset": 100,
+      "end_offset": 108,
+      "type": "<ALPHANUM>",
+      "position": 4
+    },
+    {
+      "token": "Приступ",
+      "start_offset": 144,
+      "end_offset": 153,
+      "type": "<ALPHANUM>",
+      "position": 5
+    },
+    {
+      "token": "создан",
+      "start_offset": 156,
+      "end_offset": 164,
+      "type": "<ALPHANUM>",
+      "position": 7
+    },
+    {
+      "token": "шаблон",
+      "start_offset": 165,
+      "end_offset": 172,
+      "type": "<ALPHANUM>",
+      "position": 8
+    },
+    {
+      "token": "разряд",
+      "start_offset": 177,
+      "end_offset": 184,
+      "type": "<ALPHANUM>",
+      "position": 10
+    },
+    {
+      "token": "единиц",
+      "start_offset": 185,
+      "end_offset": 191,
+      "type": "<ALPHANUM>",
+      "position": 11
+    },
+    {
+      "token": "Решен",
+      "start_offset": 202,
+      "end_offset": 209,
+      "type": "<ALPHANUM>",
+      "position": 12
+    },
+    {
+      "token": "котор",
+      "start_offset": 211,
+      "end_offset": 218,
+      "type": "<ALPHANUM>",
+      "position": 13
+    },
+    {
+      "token": "перв",
+      "start_offset": 219,
+      "end_offset": 225,
+      "type": "<ALPHANUM>",
+      "position": 14
+    },
+    {
+      "token": "приход",
+      "start_offset": 226,
+      "end_offset": 234,
+      "type": "<ALPHANUM>",
+      "position": 15
+    },
+    {
+      "token": "голов",
+      "start_offset": 237,
+      "end_offset": 243,
+      "type": "<ALPHANUM>",
+      "position": 17
+    },
+    {
+      "token": "перечисл",
+      "start_offset": 246,
+      "end_offset": 257,
+      "type": "<ALPHANUM>",
+      "position": 18
+    },
+    {
+      "token": "альтернатив",
+      "start_offset": 262,
+      "end_offset": 274,
+      "type": "<ALPHANUM>",
+      "position": 20
+    },
+    {
+      "token": "1",
+      "start_offset": 287,
+      "end_offset": 288,
+      "type": "<NUM>",
+      "position": 21
+    },
+    {
+      "token": "2",
+      "start_offset": 289,
+      "end_offset": 291,
+      "type": "<NUM>",
+      "position": 22
+    },
+    {
+      "token": "3",
+      "start_offset": 292,
+      "end_offset": 295,
+      "type": "<NUM>",
+      "position": 23
+    },
+    {
+      "token": "4",
+      "start_offset": 296,
+      "end_offset": 298,
+      "type": "<NUM>",
+      "position": 24
+    },
+    {
+      "token": "5",
+      "start_offset": 299,
+      "end_offset": 300,
+      "type": "<NUM>",
+      "position": 25
+    },
+    {
+      "token": "6",
+      "start_offset": 301,
+      "end_offset": 303,
+      "type": "<NUM>",
+      "position": 26
+    },
+    {
+      "token": "7",
+      "start_offset": 304,
+      "end_offset": 307,
+      "type": "<NUM>",
+      "position": 27
+    },
+    {
+      "token": "8",
+      "start_offset": 308,
+      "end_offset": 312,
+      "type": "<NUM>",
+      "position": 28
+    },
+    {
+      "token": "9",
+      "start_offset": 313,
+      "end_offset": 315,
+      "type": "<NUM>",
+      "position": 29
+    },
+    {
+      "token": "Обрат",
+      "start_offset": 318,
+      "end_offset": 326,
+      "type": "<ALPHANUM>",
+      "position": 30
+    },
+    {
+      "token": "вниман",
+      "start_offset": 327,
+      "end_offset": 335,
+      "type": "<ALPHANUM>",
+      "position": 31
+    },
+    {
+      "token": "пуст",
+      "start_offset": 339,
+      "end_offset": 345,
+      "type": "<ALPHANUM>",
+      "position": 33
+    },
+    {
+      "token": "альтернатив",
+      "start_offset": 346,
+      "end_offset": 358,
+      "type": "<ALPHANUM>",
+      "position": 34
+    },
+    {
+      "token": "котор",
+      "start_offset": 371,
+      "end_offset": 378,
+      "type": "<ALPHANUM>",
+      "position": 36
+    },
+    {
+      "token": "начина",
+      "start_offset": 379,
+      "end_offset": 389,
+      "type": "<ALPHANUM>",
+      "position": 37
+    },
+    {
+      "token": "перечислен",
+      "start_offset": 390,
+      "end_offset": 402,
+      "type": "<ALPHANUM>",
+      "position": 38
+    },
+    {
+      "token": "групп",
+      "start_offset": 413,
+      "end_offset": 419,
+      "type": "<ALPHANUM>",
+      "position": 39
+    },
+    {
+      "token": "единиц",
+      "start_offset": 420,
+      "end_offset": 426,
+      "type": "<ALPHANUM>",
+      "position": 40
+    },
+    {
+      "token": "римск",
+      "start_offset": 429,
+      "end_offset": 436,
+      "type": "<ALPHANUM>",
+      "position": 42
+    },
+    {
+      "token": "запис",
+      "start_offset": 437,
+      "end_offset": 443,
+      "type": "<ALPHANUM>",
+      "position": 43
+    },
+    {
+      "token": "пуст",
+      "start_offset": 457,
+      "end_offset": 463,
+      "type": "<ALPHANUM>",
+      "position": 47
+    },
+    {
+      "token": "Это",
+      "start_offset": 474,
+      "end_offset": 477,
+      "type": "<ALPHANUM>",
+      "position": 48
+    },
+    {
+      "token": "решен",
+      "start_offset": 478,
+      "end_offset": 485,
+      "type": "<ALPHANUM>",
+      "position": 49
+    },
+    {
+      "token": "немн",
+      "start_offset": 492,
+      "end_offset": 499,
+      "type": "<ALPHANUM>",
+      "position": 51
+    },
+    {
+      "token": "упрост",
+      "start_offset": 500,
+      "end_offset": 509,
+      "type": "<ALPHANUM>",
+      "position": 52
+    },
+    {
+      "token": "использова",
+      "start_offset": 516,
+      "end_offset": 528,
+      "type": "<ALPHANUM>",
+      "position": 54
+    },
+    {
+      "token": "квантификатор",
+      "start_offset": 529,
+      "end_offset": 543,
+      "type": "<ALPHANUM>",
+      "position": 55
+    },
+    {
+      "token": "Для",
+      "start_offset": 545,
+      "end_offset": 548,
+      "type": "<ALPHANUM>",
+      "position": 56
+    },
+    {
+      "token": "цифр",
+      "start_offset": 549,
+      "end_offset": 553,
+      "type": "<ALPHANUM>",
+      "position": 57
+    },
+    {
+      "token": "0",
+      "start_offset": 566,
+      "end_offset": 567,
+      "type": "<NUM>",
+      "position": 59
+    },
+    {
+      "token": "3",
+      "start_offset": 571,
+      "end_offset": 572,
+      "type": "<NUM>",
+      "position": 61
+    },
+    {
+      "token": "написа",
+      "start_offset": 587,
+      "end_offset": 595,
+      "type": "<ALPHANUM>",
+      "position": 63
+    },
+    {
+      "token": "1",
+      "start_offset": 596,
+      "end_offset": 597,
+      "type": "<NUM>",
+      "position": 64
+    },
+    {
+      "token": "0,3",
+      "start_offset": 598,
+      "end_offset": 601,
+      "type": "<NUM>",
+      "position": 65
+    },
+    {
+      "token": "вмест",
+      "start_offset": 603,
+      "end_offset": 609,
+      "type": "<ALPHANUM>",
+      "position": 66
+    },
+    {
+      "token": "1",
+      "start_offset": 611,
+      "end_offset": 612,
+      "type": "<NUM>",
+      "position": 67
+    },
+    {
+      "token": "2",
+      "start_offset": 613,
+      "end_offset": 615,
+      "type": "<NUM>",
+      "position": 68
+    },
+    {
+      "token": "3",
+      "start_offset": 616,
+      "end_offset": 619,
+      "type": "<NUM>",
+      "position": 69
+    },
+    {
+      "token": "цифр",
+      "start_offset": 625,
+      "end_offset": 629,
+      "type": "<ALPHANUM>",
+      "position": 71
+    },
+    {
+      "token": "5",
+      "start_offset": 642,
+      "end_offset": 643,
+      "type": "<NUM>",
+      "position": 73
+    },
+    {
+      "token": "8",
+      "start_offset": 647,
+      "end_offset": 648,
+      "type": "<NUM>",
+      "position": 75
+    },
+    {
+      "token": "год",
+      "start_offset": 649,
+      "end_offset": 656,
+      "type": "<ALPHANUM>",
+      "position": 76
+    },
+    {
+      "token": "6",
+      "start_offset": 657,
+      "end_offset": 659,
+      "type": "<NUM>",
+      "position": 77
+    },
+    {
+      "token": "0,3",
+      "start_offset": 660,
+      "end_offset": 663,
+      "type": "<NUM>",
+      "position": 78
+    },
+    {
+      "token": "вмест",
+      "start_offset": 665,
+      "end_offset": 671,
+      "type": "<ALPHANUM>",
+      "position": 79
+    },
+    {
+      "token": "5",
+      "start_offset": 672,
+      "end_offset": 673,
+      "type": "<NUM>",
+      "position": 80
+    },
+    {
+      "token": "6",
+      "start_offset": 674,
+      "end_offset": 676,
+      "type": "<NUM>",
+      "position": 81
+    },
+    {
+      "token": "7",
+      "start_offset": 677,
+      "end_offset": 680,
+      "type": "<NUM>",
+      "position": 82
+    },
+    {
+      "token": "8",
+      "start_offset": 681,
+      "end_offset": 685,
+      "type": "<NUM>",
+      "position": 83
+    },
+    {
+      "token": "Так",
+      "start_offset": 696,
+      "end_offset": 701,
+      "type": "<ALPHANUM>",
+      "position": 84
+    },
+    {
+      "token": "образ",
+      "start_offset": 702,
+      "end_offset": 709,
+      "type": "<ALPHANUM>",
+      "position": 85
+    },
+    {
+      "token": "разряд",
+      "start_offset": 715,
+      "end_offset": 722,
+      "type": "<ALPHANUM>",
+      "position": 87
+    },
+    {
+      "token": "единиц",
+      "start_offset": 723,
+      "end_offset": 729,
+      "type": "<ALPHANUM>",
+      "position": 88
+    },
+    {
+      "token": "получа",
+      "start_offset": 730,
+      "end_offset": 738,
+      "type": "<ALPHANUM>",
+      "position": 89
+    },
+    {
+      "token": "шаблон",
+      "start_offset": 739,
+      "end_offset": 745,
+      "type": "<ALPHANUM>",
+      "position": 90
+    },
+    {
+      "token": "1",
+      "start_offset": 756,
+      "end_offset": 757,
+      "type": "<NUM>",
+      "position": 91
+    },
+    {
+      "token": "0,3",
+      "start_offset": 758,
+      "end_offset": 761,
+      "type": "<NUM>",
+      "position": 92
+    },
+    {
+      "token": "4",
+      "start_offset": 763,
+      "end_offset": 765,
+      "type": "<NUM>",
+      "position": 93
+    },
+    {
+      "token": "6",
+      "start_offset": 766,
+      "end_offset": 768,
+      "type": "<NUM>",
+      "position": 94
+    },
+    {
+      "token": "0,3",
+      "start_offset": 769,
+      "end_offset": 772,
+      "type": "<NUM>",
+      "position": 95
+    },
+    {
+      "token": "9",
+      "start_offset": 774,
+      "end_offset": 776,
+      "type": "<NUM>",
+      "position": 96
+    },
+    {
+      "token": "Его",
+      "start_offset": 788,
+      "end_offset": 791,
+      "type": "<ALPHANUM>",
+      "position": 97
+    },
+    {
+      "token": "дополнительн",
+      "start_offset": 798,
+      "end_offset": 811,
+      "type": "<ALPHANUM>",
+      "position": 99
+    },
+    {
+      "token": "упрост",
+      "start_offset": 812,
+      "end_offset": 821,
+      "type": "<ALPHANUM>",
+      "position": 100
+    },
+    {
+      "token": "объедин",
+      "start_offset": 832,
+      "end_offset": 841,
+      "type": "<ALPHANUM>",
+      "position": 101
+    },
+    {
+      "token": "перв",
+      "start_offset": 842,
+      "end_offset": 848,
+      "type": "<ALPHANUM>",
+      "position": 102
+    },
+    {
+      "token": "альтернатив",
+      "start_offset": 849,
+      "end_offset": 861,
+      "type": "<ALPHANUM>",
+      "position": 103
+    },
+    {
+      "token": "трет",
+      "start_offset": 864,
+      "end_offset": 871,
+      "type": "<ALPHANUM>",
+      "position": 105
+    },
+    {
+      "token": "втор",
+      "start_offset": 884,
+      "end_offset": 890,
+      "type": "<ALPHANUM>",
+      "position": 107
+    },
+    {
+      "token": "четверт",
+      "start_offset": 893,
+      "end_offset": 902,
+      "type": "<ALPHANUM>",
+      "position": 109
+    },
+    {
+      "token": "5",
+      "start_offset": 905,
+      "end_offset": 906,
+      "type": "<NUM>",
+      "position": 110
+    },
+    {
+      "token": "1",
+      "start_offset": 907,
+      "end_offset": 908,
+      "type": "<NUM>",
+      "position": 111
+    },
+    {
+      "token": "0,3",
+      "start_offset": 909,
+      "end_offset": 912,
+      "type": "<NUM>",
+      "position": 112
+    },
+    {
+      "token": "1",
+      "start_offset": 914,
+      "end_offset": 915,
+      "type": "<NUM>",
+      "position": 113
+    },
+    {
+      "token": "510",
+      "start_offset": 916,
+      "end_offset": 918,
+      "type": "<NUM>",
+      "position": 114
+    }
+  ]
+}

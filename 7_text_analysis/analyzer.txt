@@ -1,0 +1,36 @@
+PUT russian_with_roman_numberals
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "russian_stop": {
+          "type": "stop",
+          "stopwords": "_russian_"
+        },
+        "russian_stemmer": {
+          "type": "stemmer",
+          "language": "russian"
+        }
+      },
+      "analyzer": {
+        "russian": {
+          "tokenizer": "standard",
+          "filter": [
+            "russian_stop",
+            "russian_stemmer"
+          ],
+          "char_filter": [
+            "roman_to_arabic",
+            "html_strip"
+          ]
+        }
+      },
+      "char_filter": {
+        "roman_to_arabic": {
+          "type": "mapping",
+          "mappings_path": "/usr/share/elasticsearch/data/map.txt"
+        }
+      }
+    }
+  }
+}
